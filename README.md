@@ -1,6 +1,40 @@
 # Expense-Tracker
-Expense Tracker is a full-stack expense management web application designed to track daily spending in a structured and efficient way. Users can add, view, and delete expenses, with all data securely stored in a relational database.
+A simple yet complete full-stack Expense Tracker built using Spring Boot, MySQL, and Vanilla JavaScript.
+This project helps users track daily expenses, view totals, and get monthly summaries.
 
-The backend is developed using Spring Boot, exposing RESTful APIs for expense operations, while MySQL is used for persistent storage. The frontend is built with HTML, CSS, and JavaScript, communicating with the backend through HTTP requests.
+This application was built step-by-step to understand real-world backend development, REST APIs, database integration, and frontend–backend communication.
 
-This project demonstrates core software engineering concepts such as backend development, REST API design, database integration, and frontend-backend communication. It is designed to be lightweight, scalable, and suitable for future enhancements like authentication, analytics dashboards, and cloud deployment.
+#🚀 Features
+
+✅ Add a new expense (amount, category, date, description)
+✅ View all expenses in a table
+✅ Delete an expense
+✅ Automatically calculate total expenses
+✅ Monthly expense summary (year + month based)
+❌ No login (single-user MVP by design)
+❌ No charts (logic-first approach)
+
+#🛠️ Tech Stack
+Backend
+Java 17
+Spring Boot
+Spring Data JPA
+MySQL
+Maven
+
+Frontend
+HTML
+CSS
+JavaScript (Fetch API)
+
+Tools
+MySQL Workbench
+Postman
+VS Code
+
+##🚧 Future Enhancements
+User authentication (login/logout)
+Multi-user support
+Charts & analytics
+Cloud deployment (Render / Railway)
+Mobile-responsive UI
