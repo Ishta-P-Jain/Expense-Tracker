@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>💸 Expense Tracker</h1>
+    <p class="subtitle">Track where your money goes</p>
+
+    <!-- Add Expense Card -->
+    <div class="card">
+        <h2>Add Expense</h2>
+        <div class="form-grid">
+            <input type="number" id="amount" placeholder="Amount (₹)">
+            <input type="text" id="category" placeholder="Category (Food, Travel…)">
+            <input type="date" id="date">
+            <input type="text" id="description" placeholder="Description">
+        </div>
+        <button class="primary-btn" onclick="addExpense()">Add Expense</button>
+    </div>
+
+    <!-- Expense List Card -->
+    <div class="card">
+        <h2>Expenses</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody id="expenseTable"></tbody>
+        </table>
+
+        <div class="total-box">
+            Total Spent: <span>₹<span id="total">0</span></span>
+        </div>
+    </div>
+
+    <!-- Monthly Summary Card -->
+    <div class="card">
+        <h2>Monthly Summary</h2>
+        <div class="summary-row">
+            <input type="number" id="year" placeholder="Year (e.g. 2026)">
+            <input type="number" id="month" placeholder="Month (1–12)">
+            <button class="secondary-btn" onclick="getMonthlyTotal()">Calculate</button>
+        </div>
+        <p class="monthly-result">
+            Monthly Total: ₹<span id="monthlyTotal">0</span>
+        </p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
