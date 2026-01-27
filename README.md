@@ -14,8 +14,6 @@ This application was built step-by-step to understand **real-world backend devel
 - ✅ Delete an expense
 - ✅ Automatically calculate total expenses
 - ✅ Monthly expense summary (year + month based)
-- ❌ No login (single-user MVP by design)
-- ❌ No charts (logic-first approach)
 
 ---
 
@@ -47,3 +45,31 @@ This application was built step-by-step to understand **real-world backend devel
 - Charts & analytics
 - Cloud deployment (Render / Railway)
 - Mobile-responsive UI
+
+----
+## ⚙️ How to Run the Application (Local Setup)
+Follow the steps below to run this project on your local machine.
+
+---
+
+### 1️⃣ Prerequisites
+Make sure the following are installed on your system:
+- Java **17 or higher**
+- Maven
+- MySQL Server
+- MySQL Workbench (recommended)
+- Any code editor (VS Code preferred)
+
+###2️⃣ Clone the Repository
+git clone https://github.com/Ishta-P-Jain/expense-tracker.git
+cd expense-tracker
+
+###3️⃣ Run the Backend (Spring Boot)
+From the project root directory:
+mvn spring-boot:run
+
+###4️⃣Run the Frontend
+Navigate to the frontend folder
+Open index.html in any web browser
+frontend/index.html
+
