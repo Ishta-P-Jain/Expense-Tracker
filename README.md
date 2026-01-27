@@ -54,9 +54,7 @@ Follow the steps below to run this project on your local machine.
 ---
 
 ### 1️⃣ Prerequisites
-
 Make sure the following are installed on your system:
-
 - Java 17 or higher
 - Maven
 - MySQL Server
@@ -70,6 +68,7 @@ Make sure the following are installed on your system:
 ```
 git clone https://github.com/Ishta-P-Jain/expense-tracker.git
 cd expense-tracker
+
 3️⃣ Run the Backend (Spring Boot)
 From the project root directory, run:
 
