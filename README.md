@@ -63,10 +63,9 @@ Make sure the following are installed on your system:
 
 ---
 
-### 2️⃣ Clone the Repository
--
-git clone https://github.com/Ishta-P-Jain/expense-tracker.git
-cd expense-tracker
+## 2️⃣ Clone the Repository
+- git clone https://github.com/Ishta-P-Jain/expense-tracker.git
+- cd expense-tracker
 ---
 
 ### 3️⃣ Run the Backend (Spring Boot)
