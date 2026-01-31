@@ -63,7 +63,7 @@ Make sure the following are installed on your system:
 
 ---
 
-## 2️⃣ Clone the Repository
+### 2️⃣ Clone the Repository
 - git clone https://github.com/Ishta-P-Jain/expense-tracker.git
 - cd expense-tracker
 ---
