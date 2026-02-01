@@ -58,7 +58,7 @@ Make sure the following are installed on your system:
 - Java 17 or higher
 - Maven
 - MySQL Server
-- MySQL Workbench (recommended)
+- MySQL Workbench
 - Any code editor (VS Code preferred)
 
 ---
